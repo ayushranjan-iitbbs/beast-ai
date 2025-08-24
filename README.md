@@ -47,7 +47,7 @@ Create a .env file in the root folder and add your keys:
 
 GROQ_API_KEY=your_groq_key_here
 REPLICATE_API_KEY=your_replicate_key_here
-FIREBASE_CONFIG=your_firebase_config
+ 
 
 
 Start the app:
