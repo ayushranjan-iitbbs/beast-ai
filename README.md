@@ -4,6 +4,8 @@ An AI-powered mobile application built with React Native that combines text inte
  with image generation powered by Replicate
 . Beast AI is designed to bring both conversational AI and creative AI art into one seamless mobile experience.
 
+Video Preview :- https://drive.google.com/file/d/1HK-WPS8YfqSaX4pjsX5X3Xra85V_5auY/view?usp=drivesdk
+
 🚀 Features
 
 🤖 Text AI (GROQ) → Smart, fast, and accurate responses.
