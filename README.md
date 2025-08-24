@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+Beast AI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An AI-powered mobile application built with React Native that combines text intelligence from GROQ
+ with image generation powered by Replicate
+. Beast AI is designed to bring both conversational AI and creative AI art into one seamless mobile experience.
 
-## Get started
+🚀 Features
 
-1. Install dependencies
+🤖 Text AI (GROQ) → Smart, fast, and accurate responses.
 
-   ```bash
-   npm install
-   ```
+🎨 AI Image Generation (Replicate) → Create stunning visuals with prompts.
 
-2. Start the app
+📱 Cross-platform Mobile App → Built with React Native and Expo.
 
-   ```bash
-   npx expo start
-   ```
+⚡ Real-time Interaction → Instant response handling for smooth UX.
 
-In the output, you'll find options to open the app in a
+☁️ Cloud Integration → Firebase, MongoDB Atlas, and Cloudinary for storage and management.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🛠️ Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Frontend / Mobile: React Native, Expo, TailwindCSS
 
-## Get a fresh project
+Backend: Node.js, Express.js
 
-When you're ready, run:
+AI APIs: GROQ (text), Replicate (image)
 
-```bash
-npm run reset-project
-```
+Database: MongoDB / MongoDB Atlas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Other Tools: Firebase, Cloudinary, AppScript, Git
 
-## Learn more
+📲 Installation & Setup
 
-To learn more about developing your project with Expo, look at the following resources:
+Clone the repo:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+git clone https://github.com/your-username/beast-ai.git
+cd beast-ai
 
-## Join the community
 
-Join our community of developers creating universal apps.
+Install dependencies:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+# or
+yarn install
+
+
+Create a .env file in the root folder and add your keys:
+
+GROQ_API_KEY=your_groq_key_here
+REPLICATE_API_KEY=your_replicate_key_here
+FIREBASE_CONFIG=your_firebase_config
+
+
+Start the app:
+
+npx expo start
+
+
+Scan the QR code in Expo Go to run on your phone.
